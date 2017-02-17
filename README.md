@@ -1,5 +1,7 @@
 # angular-compare-validator
 
+![Build Status](https://jenkins.dangl.me/buildStatus/icon?job=angular-compare-validator)
+
 This is a small Angular directive that supports form input validation for equal values, e.g. for password and comparePassword fields.
 It's automatically updated when either the source or destination value is changed.
 
