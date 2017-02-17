@@ -1,0 +1,12 @@
+{
+  "name": "angular-compare-validator",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/core": ">=2.0.0",
+    "@angular/forms": ">=2.0.0",
+    "@angular/common": ">=2.0.0",
+    "rxjs": ">=5.0.0-beta.12",
+    "zone.js": ">=0.6.21"
+  }
+}
