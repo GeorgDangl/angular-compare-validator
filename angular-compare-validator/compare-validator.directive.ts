@@ -9,7 +9,6 @@ export class CompareValidatorDirective implements Validator {
 
     private _valueToCompare: any;
     private onNotifyValueChange: () => void;
-    // TODO RENAME SELECTOR
     @Input('compareEqual')
     set valueToCompare(value: any) {
         if (value !== this._valueToCompare) {
