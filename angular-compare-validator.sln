@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular-compare-validator", "angular-compare-validator\angular-compare-validator.csproj", "{F050B664-7BE5-4424-9399-FCC3FDDBD426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{D684E664-D197-435C-B04D-25A5BA93F6FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3895684-64A9-4453-B4C5-074501DD0EE0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F050B664-7BE5-4424-9399-FCC3FDDBD426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F050B664-7BE5-4424-9399-FCC3FDDBD426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F050B664-7BE5-4424-9399-FCC3FDDBD426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F050B664-7BE5-4424-9399-FCC3FDDBD426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D684E664-D197-435C-B04D-25A5BA93F6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D684E664-D197-435C-B04D-25A5BA93F6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D684E664-D197-435C-B04D-25A5BA93F6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D684E664-D197-435C-B04D-25A5BA93F6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
