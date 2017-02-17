@@ -244,5 +244,6 @@ ModelManifest.xml
 angular-compare-validator/*.js
 angular-compare-validator/*.js.map
 angular-compare-validator/*.d.ts
-tests/*.js*
+tests/*.spec.js
+tests/*.spec.js.map
 tests/*.testresults
