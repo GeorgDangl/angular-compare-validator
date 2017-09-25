@@ -15,11 +15,11 @@ Install via npm
 ### Include the directive in your app.module.ts
 
 ``` TypeScript
-import { CompareValidatorDirective } from 'angular-compare-validator';
+import { CompareValidatorModule } from 'angular-compare-validator';
 
 @NgModule({
-    declarations: [
-        CompareValidatorDirective,
+    imports: [
+        CompareValidatorModule
     ]
 })
 export class AppModule {

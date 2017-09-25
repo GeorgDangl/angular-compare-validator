@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="compare-validator.directive.ts" />
+    <TypeScriptCompile Include="compare-validator.module.ts" />
     <TypeScriptCompile Include="index.ts" />
   </ItemGroup>
   <ItemGroup>

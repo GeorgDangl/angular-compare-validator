@@ -1,1 +1,1 @@
-﻿export * from './compare-validator.directive';
+﻿export * from './compare-validator.module';
