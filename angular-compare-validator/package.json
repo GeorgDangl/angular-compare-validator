@@ -4,6 +4,8 @@
   "license": "MIT",
   "repository": "https://github.com/GeorgDangl/angular-compare-validator",
   "description": "Angular form validation directive to compare two inputs",
+  "main": "./dist/index.js",
+  "typings": "./dist/index",
   "dependencies": {
     "@angular/core": ">=2.0.0",
     "@angular/forms": ">=2.0.0",

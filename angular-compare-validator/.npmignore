@@ -6,3 +6,7 @@ tests/
 *.sln
 *.bat
 *.ps1
+.npmignore
+*.ts
+!*.d.ts
+tsconfig.json

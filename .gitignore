@@ -247,3 +247,8 @@ angular-compare-validator/*.d.ts
 tests/*.spec.js
 tests/*.spec.js.map
 tests/*.testresults
+
+package-lock.json
+
+# Generated output
+angular-compare-validator/dist/*
