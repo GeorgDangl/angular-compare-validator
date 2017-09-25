@@ -6,7 +6,7 @@
         },
         map: {
             // Reference to the main project.
-            'angular-compare-validator': '../angular-compare-validator',
+            'angular-compare-validator': '../angular-compare-validator/dist',
             // Angular 2 bundles
             '@angular/core': 'lib:@angular/core/bundles/core.umd.js',
             '@angular/core/testing': 'lib:@angular/core/bundles/core-testing.umd.js',
