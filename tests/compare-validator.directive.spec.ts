@@ -1,6 +1,6 @@
 ﻿import { async, inject, TestBed, withModule } from '@angular/core/testing';
 import { AbstractControl } from '@angular/forms';
-import { CompareValidatorDirective } from 'angular-compare-validator/index';
+import { CompareValidatorDirective } from 'angular-compare-validator/compare-validator.directive';
 
 class MockAbstractControl extends AbstractControl {
     private _value: string;
