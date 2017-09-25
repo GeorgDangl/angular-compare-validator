@@ -9,8 +9,10 @@
             'angular-compare-validator': '../angular-compare-validator/dist',
             // Angular 2 bundles
             '@angular/core': 'lib:@angular/core/bundles/core.umd.js',
+            '@angular/common': 'lib:@angular/common/bundles/common.umd.js',
             '@angular/core/testing': 'lib:@angular/core/bundles/core-testing.umd.js',
             '@angular/forms': 'lib:@angular/forms/bundles/forms.umd.js',
+            '@angular/platform-browser': './node_modules/@angular/platform-browser/bundles/platform-browser.umd.js',
             // Other libraries
             'rxjs': 'lib:rxjs'
         },

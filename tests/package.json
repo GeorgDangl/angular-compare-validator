@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@angular/platform-browser": "4.4.3",
     "@types/jasmine": "2.5.37",
     "es6-shim": "0.35.1",
     "reflect-metadata": "^0.1.8",
