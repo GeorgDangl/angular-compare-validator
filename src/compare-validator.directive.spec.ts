@@ -1,16 +1,7 @@
 ﻿import { async, inject, TestBed, withModule } from '@angular/core/testing';
 import { AbstractControl } from '@angular/forms';
-import { CompareValidatorDirective } from 'angular-compare-validator/compare-validator.directive';
-
-class MockAbstractControl extends AbstractControl {
-    private _value: string;
-    constructor() {
-        super(null, null);
-    }
-    setValue(value, options?): void { this._value = value }
-    patchValue(value, options?): void { throw new Error('Not supported in mock') }
-    reset(value?, options?): void { throw new Error('Not supported in mock') }
-}
+import { CompareValidatorDirective } from './compare-validator.directive';
+import { FormControl } from '@angular/forms';
 
 describe('CompareValidatorDirective',
     () => {
@@ -20,7 +11,7 @@ describe('CompareValidatorDirective',
 
         beforeEach(() => {
             directive = new CompareValidatorDirective();
-            control = new MockAbstractControl();
+            control = new FormControl();
         });
 
         it('can be instantiated',
