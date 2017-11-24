@@ -252,3 +252,5 @@ package-lock.json
 
 # Generated output
 angular-compare-validator/dist/*
+coverage/**/*
+karma-results.xml
