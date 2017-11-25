@@ -10,3 +10,7 @@ tests/
 *.ts
 !*.d.ts
 tsconfig.json
+.vs/**/*
+coverage/**/*
+karma-results.xml
+karma.conf.js
