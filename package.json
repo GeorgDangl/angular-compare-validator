@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@angular/compiler": "^5.0.1",
+    "@angular/compiler-cli": "^5.0.1",
     "@angular/platform-browser": "^5.0.1",
     "@angular/platform-browser-dynamic": "^5.0.1",
     "@types/core-js": "^0.9.39",

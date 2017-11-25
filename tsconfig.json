@@ -9,5 +9,18 @@
     "emitDecoratorMetadata": true,
     "lib": [ "es6", "dom" ],
     "outDir": "./dist"
-  }
+  },
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "angular-compare-validator",
+    "flatModuleId": "angular-compare-validator"
+  },
+  "files": [
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "./node_modules/*"
+    ]
 }

@@ -254,3 +254,4 @@ package-lock.json
 angular-compare-validator/dist/*
 coverage/**/*
 karma-results.xml
+dist/**/*
