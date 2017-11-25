@@ -7,9 +7,14 @@
   "main": "./dist/index.js",
   "typings": "./dist/index",
   "scripts": {
-    "build": "ngc",
+    "build": "ng-packagr",
     "test": "karma start",
     "test:dev": "karma start --singleRun false --browsers Chrome"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./src/index.ts"
+    }
   },
   "dependencies": {
     "@angular/core": ">=5.0.0",
@@ -35,6 +40,7 @@
     "karma-junit-reporter": "~1.2.0",
     "karma-phantomjs-launcher": "1.0.4",
     "karma-typescript": "~3.0.8",
+    "ng-packagr": "1.6.0",
     "typescript": "2.4.2"
   }
 }
