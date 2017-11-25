@@ -37,3 +37,11 @@ export class AppModule {
 
 ## Demo
 ![demo](demo.gif)
+
+## Build
+
+Run `prepublish.ps1` to generate build output in the `./dist` folder.
+
+## Test
+
+To run tests, execute the `test.ps1` script. JUnit test results are then found in `karma-results.xml` while coverage is available in the Cobertura format at `coverage/PhantomJS/typescript.coverageresult`.

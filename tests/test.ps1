@@ -1,2 +1,0 @@
-$chutzpahExecutable = Join-Path -Path (Get-Item $PSScriptRoot).Parent.FullName -ChildPath "packages\Chutzpah.4.3.4\tools\chutzpah.console.exe"
-& $chutzpahExecutable "$PSScriptRoot/chutzpah.json" /nunit2 chutzpah.testresults
